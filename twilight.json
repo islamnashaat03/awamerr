@@ -878,6 +878,13 @@
                     "source": "brands"
                 }
             ]
+        },
+        {
+            "key": "25d650c9-56f7-440b-bb59-2f47f211f7e9",
+            "title": "nashaat",
+            "icon": "sicon-store",
+            "path": "home.nashaat",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
