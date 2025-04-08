@@ -886,18 +886,28 @@
             "path": "home.nashaat",
             "fields": [
                 {
-                    "id": "collection",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "Collection",
+                    "id": "title",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": null,
+                    "variant": "h2",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "slider",
+                    "type": "number",
+                    "format": "slider",
+                    "inputType": "range",
+                    "label": "Slider",
                     "description": null,
                     "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": 5
+                    "icon": "sicon-pin",
+                    "value": "0",
+                    "required": false,
+                    "step": 2.5,
+                    "minimum": -50,
+                    "maximum": 50
                 }
             ]
         }
